@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Patua+One&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --backGroundColor:#F5F7F8;
+    --color2:#FCDE70;
+    --color3:#E8B86D;
+    --color4:#185519;
+    --headerFont:"Patua One";
+    --commonFont:"Open Sans";
+    --size-sm:12px;
+    --size-md:16px;
+    --size-lg:20px;
+}
+
+body{
+    background-color: var(--backGroundColor);
+}
+.container{
+    width: calc(100% - 100px);
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
